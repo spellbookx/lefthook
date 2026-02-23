@@ -16,6 +16,12 @@
     "bun"
   ],
   "author": "spellbookx",
+  "contributors": [
+    {
+      "name": "Davide Di Criscito",
+      "url": "https://github.com/dcdavidev"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -29,7 +35,8 @@
     "@commit-msg",
     "@pre-commit",
     "@pre-push",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "private": false,
   "publishConfig": {
