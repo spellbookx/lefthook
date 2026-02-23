@@ -1,0 +1,4 @@
+commit-msg:
+  jobs:
+    - name: lint-commit-msg
+      run: bun x commitlint --verbose --edit {1}

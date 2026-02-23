@@ -1,0 +1,5 @@
+pre-commit:
+  parallel: false
+  jobs:
+    - name: type-check
+      run: yarn dlx tsc --noEmit

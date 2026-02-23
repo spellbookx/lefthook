@@ -1,0 +1,4 @@
+commit-msg:
+  jobs:
+    - name: lint-commit-msg
+      run: pnpx commitlint --verbose --edit {1}

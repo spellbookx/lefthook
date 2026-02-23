@@ -1,0 +1,9 @@
+pre-commit:
+  parallel: false
+  jobs:
+    - name: lint
+      run: bun x eslint --no-warn-ignored --fix {staged_files}
+      stage_fixed: true
+    - name: fmt
+      run: bun x prettier --ignore-unknown --write {staged_files}
+      stage_fixed: true

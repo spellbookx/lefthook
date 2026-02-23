@@ -1,0 +1,6 @@
+pre-commit:
+  parallel: false
+  jobs:
+    - name: fmt
+      run: pnpm dlx prettier --ignore-unknown --write {staged_files}
+      stage_fixed: true

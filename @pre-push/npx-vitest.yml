@@ -1,0 +1,4 @@
+pre-push:
+  jobs:
+    - name: test
+      run: npx vitest run

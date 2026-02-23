@@ -1,0 +1,39 @@
+{
+  "name": "@spellbookx/lefthook",
+  "version": "0.0.1",
+  "description": "Shared Lefthook configurations for common tools (ESLint, Prettier, TypeScript, Vitest, Jest) and multiple package managers (npx, bun, yarn dlx, pnpm dlx).",
+  "keywords": [
+    "lefthook",
+    "git-hooks",
+    "eslint",
+    "prettier",
+    "commitlint",
+    "typescript",
+    "vitest",
+    "jest",
+    "pnpm",
+    "yarn",
+    "bun"
+  ],
+  "author": "spellbookx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spellbookx/lefthook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spellbookx/lefthook/issues"
+  },
+  "homepage": "https://github.com/spellbookx/lefthook#readme",
+  "files": [
+    "@commit-msg",
+    "@pre-commit",
+    "@pre-push",
+    "README.md"
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@10.30.1"
+}
