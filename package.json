@@ -15,6 +15,9 @@
     "yarn",
     "bun"
   ],
+  "scripts": {
+    "release": "LEFTHOOK=\"0\" release-it"
+  },
   "author": "spellbookx",
   "contributors": [
     {
