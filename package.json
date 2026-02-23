@@ -1,6 +1,6 @@
 {
   "name": "@spellbookx/lefthook",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Shared Lefthook configurations for common tools (ESLint, Prettier, TypeScript, Vitest, Jest) and multiple package managers (npx, bun, yarn dlx, pnpm dlx).",
   "keywords": [
     "lefthook",
